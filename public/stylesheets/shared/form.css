@@ -1,6 +1,7 @@
 :root {
   --form-label-font-size: 1.2rem;
-  --form-input-background-color: hsl(var(--color-base-hue), 100%, 31%);
+  /* --form-input-background-color: hsl(var(--color-base-hue), 100%, 31%); */
+  --form-input-background-color: #ddd;
   --form-input-border-color: hsl(var(--color-base-hue), 100%, 50%);
   --form-input-border-color-light: hsl(var(--color-base-hue), 100%, 80%);
 }
@@ -42,7 +43,7 @@
   border-radius: .25rem;
   border: 1px solid var(--form-input-border-color);
   background-color: var(--form-input-background-color);
-  color: var(--color-text-light);
+  color: black;
   font-size: 1rem;
   font-weight: normal;
   font-family: 'Gotham Rounded';
@@ -73,6 +74,6 @@
 }
 
 .filepond--drop-label {
-  color: var(--color-text-light);
+  color: black;
   font-size: inherit;
 }

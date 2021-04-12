@@ -17,7 +17,8 @@
 }
 
 body {
-  background: linear-gradient(to right, var(--color-background-dark), var(--color-background-light));
+  background-color: #145e49;
+background-image: url("https://www.transparenttextures.com/patterns/dark-exa.png");/* background: linear-gradient(to right, var(--color-background-dark), var(--color-background-light)); */
 }
 
 .container {
