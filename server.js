@@ -22,7 +22,8 @@ app.use(bodyParser.urlencoded({ extended: false }))
 
 
 const mongoose = require('mongoose')
-mongoose.connect(process.env.MONGO_URI, {useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true });
+mongoose.connect('mongodb+srv://boiporun:boiporun@cluster0.gckmq.mongodb.net/boiPorunDB?retryWrites=true&w=majority',
+   {useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true });
 
 
 const db = mongoose.connection
