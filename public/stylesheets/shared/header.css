@@ -40,8 +40,48 @@
   color: white;
 }
 
-.header-nav li:active a, .header-title:active {
+/* .header-nav li:active a, .header-title:active {
   background: white;
   border: 1px solid;
   color: black;
+} */
+
+.logoImg{}
+
+@media (max-width:480px) {
+  .logoImg{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+
+  .header-nav ul {
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center
+  }
+
+  .header-nav li { 
+    padding: 10px;
+    border: 1px solid;
+    margin: 0 10px 10px 0;
+    font-size: 20px;
+  }
+
+  .header-nav li:hover{ 
+    background: white;
+    color: rgb(2, 89, 92);
+    border: 1px solid rgb(2, 89, 92)
+
+  }
+
+  /* .header-nav li:hover .header-nav li {
+    border: 1px solid rgb(2, 89, 92)
+  } */
+
+  .header-nav li a:hover, .header-title:hover {
+    color: rgb(2, 89, 92);
+  }
+
+
 }

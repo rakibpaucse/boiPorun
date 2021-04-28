@@ -19,6 +19,12 @@
   flex-basis: 0;
 }
 
+@media (max-width:480px) {
+  .form-row {  flex-direction: column;}
+  .form-item {margin-left: 0 ; margin-bottom: 15px}
+}
+
+
 .form-item:first-child {
   margin-left: 0;
 }

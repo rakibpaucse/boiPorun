@@ -28,6 +28,21 @@
   display: flex;
 }
 
+.mobile{display: none}
+.bigscreen{display: block}
+
+@media (max-width:480px) {
+  .book-details {
+    flex-direction: column;
+    align-items: center;  
+  }
+  .book-details-btn-grid { margin: 1.5rem 0}
+  .book-details-grid { margin-bottom: 25px }
+
+  .mobile{display: block ; text-align: justify}
+  .bigscreen{display: none}
+}
+
 .book-details-label {
   font-size: 1.2rem;
   font-weight: 500;
@@ -41,6 +56,8 @@
   grid-gap: 1rem;
   grid-template-columns: auto auto;
 }
+
+
 
 .book-details-btn-grid {
   display: grid;

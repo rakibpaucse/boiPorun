@@ -54,3 +54,15 @@
   color: var(--color-btn-danger-text-dark);
   background-color: var(--color-btn-danger-background-dark);
 }
+
+@media (max-width:480px) {
+  .btn-danger { margin-bottom: 10px }
+  .btn-row { align-items: unset }
+  .btn-row > * { margin-left: 0rem;}
+  .author-row{ flex-direction: column ; border-bottom: 1px solid rgb(130, 166, 156); margin-bottom: 10px}
+  .authorPage{ align-items: flex-start !important ; flex-wrap: wrap}
+  .authorPageBtn { flex : 1; margin: 10px }
+  .extra{
+    flex: 1 1 100%
+  }
+}
