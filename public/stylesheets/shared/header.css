@@ -40,13 +40,7 @@
   color: white;
 }
 
-/* .header-nav li:active a, .header-title:active {
-  background: white;
-  border: 1px solid;
-  color: black;
-} */
 
-.logoImg{}
 
 @media (max-width:480px) {
   .logoImg{
